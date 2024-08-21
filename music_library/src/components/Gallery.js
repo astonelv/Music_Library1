@@ -1,4 +1,5 @@
-import GalleryItem from './GalleryItem'
+import React from "react";
+import GalleryItem from "./GalleryItem";
 
 function Gallery(props){
 
@@ -10,9 +11,10 @@ function Gallery(props){
 
     return (
         <div>
-            {display}
+        {display}
         </div>
     )
 }
+
 
 export default Gallery
